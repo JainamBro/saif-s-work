@@ -1,0 +1,137 @@
+<html>
+<head>
+  <title>Tennis</title>
+  <style>
+    body {
+      background: blue;
+      color: Yellow;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+      margin: 0;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 5px;
+      text-transform: uppercase;
+      margin-top: 40px;
+    }
+    h1 span {
+      display: inline-block;
+      font-family: 'Press Start 2P', monospace;
+      animation: wave 1.5s infinite;
+    }
+    @keyframes wave {
+      0%   { transform: translateY(0); }
+      25%  { transform: translateY(-10px); }
+      50%  { transform: translateY(0); }
+      75%  { transform: translateY(5px); }
+      100% { transform: translateY(0); }
+    }
+    h1 span:nth-child(1)  { animation-delay: 0s; }
+    h1 span:nth-child(2)  { animation-delay: 0.1s; }
+    h1 span:nth-child(3)  { animation-delay: 0.2s; }
+    h1 span:nth-child(4)  { animation-delay: 0.3s; }
+    h1 span:nth-child(5)  { animation-delay: 0.4s; }
+    h1 span:nth-child(6)  { animation-delay: 0.5s; }
+    h1 span:nth-child(7)  { animation-delay: 0.6s; }
+    h1 span:nth-child(8)  { animation-delay: 0.7s; }
+    h1 span:nth-child(9)  { animation-delay: 0.8s; }
+    h1 span:nth-child(10) { animation-delay: 0.9s; }
+    h1 span:nth-child(11) { animation-delay: 1s; }
+    h1 span:nth-child(12) { animation-delay: 1.1s; }
+    h1 span:nth-child(13) { animation-delay: 1.2s; }
+    h1 span:nth-child(14) { animation-delay: 1.3s; }
+    h1 span:nth-child(15) { animation-delay: 1.4s; }
+    h1 span:nth-child(16) { animation-delay: 1.5s; }
+
+    .content {
+      max-width: 800px;
+      margin: 30px auto;
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+
+    .btn-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .btn {
+      background: crimson;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: darkred;
+      transform: scale(1.05);
+    }
+  a{
+        color: yellow ; 
+       font-weight: bolder;
+       font-style: italics;
+       font-size: 20px;
+       text-decoration: none;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>
+    <span>T</span><span>E</span><span>N</span><span>N</span><span>I</span><span>S</span>
+  </h1>
+
+  <div class="content">
+    <p>
+      Tennis is one of the most popular sports in the world, played by millions of people across different
+      countries. It is a game that requires not only physical strength but also strategy, focus, and quick
+      decision-making skills.
+    </p>
+
+    <p>
+      The origins of tennis can be traced back to 12th century France, where it began as a handball game.
+      Modern lawn tennis as we know it was developed in the 19th century in England, and soon became an
+      international sport with major tournaments.
+    </p>
+
+    <p>
+      Some of the most famous tournaments in tennis are Wimbledon, the US Open, the French Open, and the
+      Australian Open. These four tournaments are together known as the Grand Slam, and winning all four
+      in a single year is considered one of the greatest achievements in the sport.
+    </p>
+
+    <p>
+      Tennis legends such as Roger Federer, Rafael Nadal, Serena Williams, and Novak Djokovic have inspired
+      millions with their dedication, sportsmanship, and achievements. The sport continues to grow in
+      popularity, both as a recreational activity and a professional competition.
+    </p>
+
+    <img src="images/tennis.webp" alt="Tennis">
+
+    <div class="btn-container">
+      <button class="btn"><a href="index.html">Learn More</a></button>
+    </div>
+  </div>
+</body>
+</html>
